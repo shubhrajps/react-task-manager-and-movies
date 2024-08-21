@@ -1,0 +1,19 @@
+<head>
+    <body>
+        <div id="root">
+            <h1>Hello from React</h1>
+        </div>
+        <script 
+            crossorigin
+            src="https://unpkg.com/react@18/umd/react.development.js"
+        ></script>
+        <script crossorigin src="https://unpkg.com/react-dom/umd/react-dom.development.js"
+        ></script>
+        <script>
+            const message = React.createElement('h1', null, 'Hello from Shubhraj');
+            const messages = React.createElement('div', null, React.createElement('h1', null, "WOW"), React.createElement('h2', null, "MOMO"));
+            const root = ReactDOM.createRoot(document.getElementById('root'));
+            root.render(messages);
+        </script>
+    </body>
+</head>
