@@ -19,11 +19,9 @@ const reducer = (state, action) => {
 
 export const MovieProvider = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, initialState);
-
     const addToWatchlist = (movie) => {
         dispatch({ type: 'ADD_TO_WATCHLIST', payload: movie });
     };
-
     return (
         <MovieContext.Provider value={{ ...state, addToWatchlist }}>
             {children}

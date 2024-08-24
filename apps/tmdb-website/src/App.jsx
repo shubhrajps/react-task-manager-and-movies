@@ -10,6 +10,7 @@ function App() {
         <MovieProvider>
             <Router>
                 <Navbar />
+                <Home />
                 <Routes>
                     <Route path="/" exact component={Home} />
                     <Route path="/watchlist" component={Watchlist} />
