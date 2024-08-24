@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useMovies } from '../context/MovieContext';
 
 const Watchlist = () => {
-    const { watchlist } = useMovies();
+    const { watchlist, removeFromWatchlist } = useMovies();
     const [searchTerm, setSearchTerm] = useState('');
 
     const filteredMovies = watchlist.filter(movie => 
@@ -18,15 +18,21 @@ const Watchlist = () => {
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
             />
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-5 gap-4">
                 {filteredMovies.map((movie) => (
                     <div key={movie.id} className="bg-white p-4 rounded-lg shadow-md">
                         <img 
-                            src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} 
+                            src={`https://image.tmdb.org/t/p/w300/${movie.poster_path}`} 
                             alt={movie.title} 
                             className="rounded-lg"
                         />
                         <h2 className="text-lg font-bold mt-2">{movie.title}</h2>
+                        <button 
+                            className="mt-2 bg-red-500 text-white py-1 px-2 rounded"
+                            onClick={() => removeFromWatchlist(movie.id)}
+                        >
+                            Remove from Watchlist
+                        </button>
                     </div>
                 ))}
             </div>
