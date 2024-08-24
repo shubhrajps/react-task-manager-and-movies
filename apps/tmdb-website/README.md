@@ -18,6 +18,16 @@ A movie browsing application similar to IMDb, built with React, Tailwind CSS, Fr
 - **TMDB API:** For fetching movie data.
 - **LocalStorage:** For persisting the watchlist data between sessions.
 
+## Screenshots
+![Screenshot 2024-08-24 at 5 24 44 PM](https://github.com/user-attachments/assets/8fe12856-d4aa-4c77-9048-6d241e692086)
+
+![Screenshot 2024-08-24 at 5 25 06 PM](https://github.com/user-attachments/assets/ff08b1ad-b259-4a02-90b3-32aaaca43888)
+
+## Video
+https://github.com/user-attachments/assets/8ceb1dd6-549c-4c33-8c7b-16b960df1bf4
+
+
+
 ## Getting Started
 
 Follow the steps below to run this project locally.
