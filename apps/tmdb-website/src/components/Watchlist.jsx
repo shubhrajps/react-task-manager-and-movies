@@ -26,7 +26,7 @@ const Watchlist = () => {
                             alt={movie.title} 
                             className="rounded-lg"
                         />
-                        <h2 className="text-lg font-bold mt-2">{movie.title}</h2>
+                        <h2 className="text-lg text-black font-bold mt-2">{movie.title}</h2>
                         <button 
                             className="mt-2 bg-red-500 text-white py-1 px-2 rounded"
                             onClick={() => removeFromWatchlist(movie.id)}

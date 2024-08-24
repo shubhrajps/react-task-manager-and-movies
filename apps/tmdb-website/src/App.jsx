@@ -10,11 +10,9 @@ function App() {
         <MovieProvider>
             <Router>
                 <Navbar />
-                {/* <Home /> */}
-                <Watchlist />
                 <Routes>
-                    <Route path="/" exact component={Home} />
-                    <Route path="/watchlist" component={Watchlist} />
+                    <Route path="/" element={<Home />} />
+                    <Route path="/watchlist" element={<Watchlist />} />
                 </Routes>
             </Router>
         </MovieProvider>
