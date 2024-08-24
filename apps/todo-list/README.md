@@ -10,6 +10,12 @@ This is a simple To-Do List application built with React, Tailwind CSS, and Fram
 - **Smooth Animations:** The app uses Framer Motion for smooth UI animations.
 - **Responsive Design:** Tailwind CSS ensures the app looks great on all devices.
 
+## Screenshot
+![Screenshot 2024-08-24 at 3 12 31 PM](https://github.com/user-attachments/assets/2558d094-2418-4903-b2a1-e21dc3423daf)
+
+## Product Video
+https://github.com/user-attachments/assets/d5eed4d6-ae07-474c-bc84-2973b1ff2e4a
+
 ## Tech Stack
 
 - **React:** JavaScript library for building user interfaces.
