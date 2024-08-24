@@ -19,3 +19,26 @@ This is a simple To-Do List application built with React, Tailwind CSS, and Fram
 
 ## Screenshot
 ![Screenshot 2024-08-24 at 3 12 31 PM](https://github.com/user-attachments/assets/036a0470-a849-4b0e-b265-e4f3f818ce25)
+
+# Movie App
+
+A movie browsing application similar to IMDb, built with React, Tailwind CSS, Framer Motion, and the TMDB API. This standalone application allows users to view popular movies, add them to a watchlist, and search through their saved movies.
+
+## Features
+
+- **Home Page:** Displays a grid of 30 popular movies fetched from the TMDB API. Each movie is displayed with its thumbnail, title, and an "Add to Watchlist" button.
+- **Watchlist Page:** Users can view and manage their saved movies. The watchlist includes a search feature and allows users to remove movies from the list.
+- **Responsive UI:** The application is styled using Tailwind CSS, ensuring a responsive and visually appealing design.
+- **Animations:** Framer Motion is used to add smooth animations to the UI elements.
+
+## Technologies Used
+
+- **React:** For building the user interface and managing component state.
+- **React Context API:** For managing global state (watchlist) across components.
+- **Tailwind CSS:** For styling the application with utility-first CSS.
+- **Framer Motion:** For adding animations to the UI.
+- **TMDB API:** For fetching movie data.
+- **LocalStorage:** For persisting the watchlist data between sessions.
+
+## Screenshots
+![Screenshot 2024-08-24 at 5 24 44 PM](https://github.com/user-attachments/assets/8fe12856-d4aa-4c77-9048-6d241e692086)
