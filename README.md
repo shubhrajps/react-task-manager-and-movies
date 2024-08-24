@@ -16,3 +16,6 @@ This is a simple To-Do List application built with React, Tailwind CSS, and Fram
 - **Tailwind CSS:** Utility-first CSS framework for rapid UI development.
 - **Framer Motion:** A library for animations and transitions in React.
 - **Context API:** Used for managing the global state of the to-do list.
+
+## Screenshot
+![Screenshot 2024-08-24 at 3 12 31 PM](https://github.com/user-attachments/assets/036a0470-a849-4b0e-b265-e4f3f818ce25)
