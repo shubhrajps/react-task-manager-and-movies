@@ -25,9 +25,31 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/todo-list-app.git
+   
+2. **Install the dependencies:**
+   ```bash
    cd todo-list-app
    npm install
+   
+4. **Run the app:**
+   ```bash
    npm run dev
 
-   Go to http://localhost:3000 to view the app.
+Go to http://localhost:3000 to view the app.
+
+## Project Structure
+```bash
+src/
+│
+├── components/
+│   ├── TodoInput.jsx   // Component for adding new tasks
+│   ├── TodoItem.jsx    // Component for displaying individual tasks
+│   └── TodoList.jsx    // Component for displaying the list of tasks
+│
+├── context/
+│   └── TodoContext.jsx // Context API for managing the state
+│
+├── App.jsx             // Main application component
+└── index.js            // Entry point for the React app
+
 
